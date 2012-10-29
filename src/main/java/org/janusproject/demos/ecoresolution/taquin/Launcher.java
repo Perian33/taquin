@@ -12,6 +12,7 @@ public class Launcher {
 	public static void main(String[] args) {
 		final int gridSize = 3;
 		final int nb_place = gridSize * gridSize;
+		
 		Kernel k = Kernels.get();
 		TaquinFrame frame = new TaquinFrame(k, gridSize);
 		frame.setVisible(true);
